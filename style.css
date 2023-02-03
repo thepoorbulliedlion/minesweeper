@@ -60,8 +60,8 @@ h1 {
 }
 
 #flexBoard {
-  width: 60vw;
-  height: 60vw;
+  width: 40vw;
+  height: 40vw;
   border: 5px solid rgba(194, 194, 194, 0.8);
   border-radius: 5px;
   box-shadow: 5px 5px 30px rgb(0 0 0 / 90%);

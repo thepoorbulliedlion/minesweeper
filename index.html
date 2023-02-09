@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="lillion.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Minesweeper</title>
+  </head>
+
+  <body>
+    <div id="flexBoard"></div>
+
+    <fieldset id="description">
+      <legend>Description</legend>
+      Minesweeper is a logic game, with the objective of clearing the map of the
+      "mines"(orange squares). Left click to reveal a square, and right click to
+      flag squares you believe to be mines. Revealed squares show how many mines
+      are touching it in a one square radius, diagonals included. If the square
+      has zero mines on it, the game conveniently auto-reveals all squares
+      touching it.
+      <br />
+      <h1>DISCLAIMER</h1>
+      This game is not yet responsive, which means it's not meant to played on
+      mobile. The first "reveal" of a square is also random as of now.
+    </fieldset>
+  </body>
+
+  <script src="script.js"></script>
+</html>

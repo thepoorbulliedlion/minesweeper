@@ -18,6 +18,7 @@ div {
   height: 3vw;
   text-align: center;
   font-size: 52px;
+  cursor: default;
 }
 
 legend {
@@ -42,7 +43,7 @@ h1 {
 }
 
 .invisible {
-  opacity: 0.5;
+  opacity: 0;
 }
 
 .visible {
